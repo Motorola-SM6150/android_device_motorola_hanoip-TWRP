@@ -6,6 +6,9 @@ LOCAL_PATH := device/motorola/hanoip
 # Shipping level
 PRODUCT_SHIPPING_API_LEVEL := 30
 
+# VNDK version
+PRODUCT_TARGET_VNDK_VERSION := 30
+
 # define hardware platform
 PRODUCT_PLATFORM := sm6150
 
