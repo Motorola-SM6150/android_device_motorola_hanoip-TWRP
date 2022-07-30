@@ -3,6 +3,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
 
 LOCAL_PATH := device/motorola/hanoip
 
+# Shipping level
+PRODUCT_SHIPPING_API_LEVEL := 30
+
 # define hardware platform
 PRODUCT_PLATFORM := sm6150
 
